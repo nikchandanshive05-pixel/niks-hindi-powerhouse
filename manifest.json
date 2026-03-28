@@ -1,0 +1,230 @@
+{
+  "name": "Nik's Hindi Powerhouse",
+  "version": "1.1.0",
+  "scrapers": [
+
+    {
+      "id": "einthusan",
+      "name": "Einthusan",
+      "description": "Premium South Asian cinema — Hindi, Marathi, Tamil, Telugu, Malayalam, Kannada, Bengali, Punjabi",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie"],
+      "filename": "providers/einthusan.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://einthusan.tv/static/images/favicon.ico",
+      "contentLanguage": ["hin", "mar", "tam", "tel", "ml", "kn", "ben", "pan"]
+    },
+
+    {
+      "id": "streamflix",
+      "name": "StreamFlix",
+      "description": "Direct links via StreamFlix API — English & Hindi",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/streamflix.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://streamflix.app/assets/images/logo-text-148x72.png",
+      "contentLanguage": ["en", "hin"]
+    },
+
+    {
+      "id": "moviebox",
+      "name": "MovieBox",
+      "description": "MovieBox — English, Hindi, Tamil, Telugu (DASH + MP4)",
+      "version": "1.1.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/moviebox.js",
+      "enabled": true,
+      "formats": ["mp4", "mpd"],
+      "logo": "https://moviebox.ph/favicon.ico",
+      "contentLanguage": ["en", "hin", "tam", "tel", "mar"]
+    },
+
+    {
+      "id": "castle",
+      "name": "Castle",
+      "description": "Multi-language — English, Hindi, Tamil, Telugu, Malayalam, Kannada, Marathi",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/castle.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://static.hbayy.com/simple-blog-13/prod/_nuxt/big-logo.DESZ4mBj.png",
+      "contentLanguage": ["en", "hin", "tam", "tel", "ml", "kn", "mar"]
+    },
+
+    {
+      "id": "hdhub4u",
+      "name": "HDHub4u",
+      "description": "Direct MKV links — English & Hindi",
+      "version": "1.1.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/hdhub4u.js",
+      "enabled": true,
+      "formats": ["mkv", "mp4"],
+      "logo": "https://new3.hdhub4u.fo/wp-content/uploads/2021/05/hdhub4ulogo.png",
+      "contentLanguage": ["en", "hin"]
+    },
+
+    {
+      "id": "moviesmod",
+      "name": "MoviesMod",
+      "description": "Multiple quality Hindi/English MKV streams",
+      "version": "1.0.1",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/moviesmod.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://moviesmod.plus/wp-content/uploads/2022/10/moviesmod.png",
+      "contentLanguage": ["en", "hin"]
+    },
+
+    {
+      "id": "cinemacity",
+      "name": "CinemaCity",
+      "description": "Multi-language including Hindi and Marathi",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/cinemacity.js",
+      "enabled": true,
+      "formats": ["mp4"],
+      "logo": "https://cinemacity.cc/favicon.ico",
+      "contentLanguage": ["en", "hin", "tam", "tel", "mar"]
+    },
+
+    {
+      "id": "dooflix",
+      "name": "DooFlix",
+      "description": "Fast TMDB-integrated streaming — English & Hindi",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/dooflix.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "logo": "https://panel.watchkaroabhi.com/assets/images/logo.png",
+      "contentLanguage": ["en", "hin"]
+    },
+
+    {
+      "id": "dvdplay",
+      "name": "DVDPlay",
+      "description": "DVDPlay — Malayalam, Tamil, Hindi direct links",
+      "version": "1.0.2",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/dvdplay.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://dvdplay.rodeo/dvdplay-icon.png",
+      "contentLanguage": ["ml", "tam", "hin"]
+    },
+
+    {
+      "id": "mallumv",
+      "name": "MalluMV",
+      "description": "Tamil, Telugu, Hindi, Malayalam, Kannada movies",
+      "version": "1.0.1",
+      "author": "Nik",
+      "supportedTypes": ["movie"],
+      "filename": "providers/mallumv.js",
+      "enabled": true,
+      "formats": ["mkv", "mp4"],
+      "logo": "https://mallumv.fit/favicon.ico",
+      "contentLanguage": ["tam", "tel", "hin", "ml", "kn"]
+    },
+
+    {
+      "id": "allmovieland",
+      "name": "AllMovieLand",
+      "description": "Hindi M3U8 streams with multi-language support",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/allmovieland.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "logo": "https://allmovieland.you/logo.png",
+      "contentLanguage": ["en", "hin", "tam", "tel"]
+    },
+
+    {
+      "id": "vixsrc",
+      "name": "Vixsrc",
+      "description": "M3U8 auto quality — English fallback",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/vixsrc.js",
+      "enabled": true,
+      "logo": "https://vixsrc.to/favicon.ico",
+      "contentLanguage": ["en"]
+    },
+
+    {
+      "id": "vidlink",
+      "name": "Vidlink",
+      "description": "Encrypted TMDB ID streaming",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/vidlink.js",
+      "enabled": true,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://vidlink.pro/favicon.ico",
+      "contentLanguage": ["en"]
+    },
+
+    {
+      "id": "showbox",
+      "name": "ShowBox",
+      "description": "Multiple quality English streams — backup",
+      "version": "1.0.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/showbox.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv"],
+      "logo": "https://raw.githubusercontent.com/tapframe/nuvio-providers/main/Assets/Logo-2.png",
+      "contentLanguage": ["en"]
+    },
+
+    {
+      "id": "uhdmovies",
+      "name": "UHDMovies",
+      "description": "4K/UHD quality MKV — best picture quality",
+      "version": "1.2.0",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/uhdmovies.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://uhdmovies.rip/wp-content/uploads/2021/03/cropped-output-onlinepngtools-1-32x32.png",
+      "contentLanguage": ["en"]
+    },
+
+    {
+      "id": "4khdhub",
+      "name": "4KHDHub",
+      "description": "4K direct links — best for Hollywood 4K",
+      "version": "1.0.2",
+      "author": "Nik",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/4khdhub.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://4khdhub.fans/favicon.ico",
+      "contentLanguage": ["en"]
+    }
+
+  ]
+}
